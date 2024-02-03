@@ -15,10 +15,11 @@
     ></script>
 
     <script type="text/javascript">
-      var myWidget = cloudinary.createUploadWidget(
+      const myWidget = cloudinary.createUploadWidget(
         {
           cloudName: "dcmlljv4l",
           uploadPreset: "pmjlkeuy",
+          tags: ["move"],
         },
         (error, result) => {
           if (!error && result && result.event === "success") {
