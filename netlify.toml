@@ -1,2 +1,10 @@
 [build]
-    functions= "functions"
+    base= "src"
+command = "npm run build"
+functions = "functions"
+
+[dev]
+base = "troweld-html/src"
+command = "npm run dev"
+targetPort = 8888
+port = 8889

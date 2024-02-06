@@ -17,12 +17,12 @@ app.set("view engine", "html");
 
 app.get("/", (req, res) => {
   // res.render("index");
-  res.sendFile(__dirname + "/views/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/galleryupload", (req, res) => {
   // res.render("upload");
-  res.sendFile(__dirname + "/views/upload.html");
+  res.sendFile(__dirname + "/upload.html");
 });
 
 app.listen(process.env.PORT || PORT, () => {
