@@ -53,23 +53,27 @@
         <div class="header_top">
           <div class="container-fluid header_top_container">
             <a class="navbar-brand" href="index.html">
-              <img src="images/Moveit Design 2@0.5x.png" alt="" width="150px" />
+              <img
+                src="images/Moveit Design 2@0.5x.png"
+                alt="Move It logo"
+                width="150px"
+              />
             </a>
             <div class="contact_nav">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Dublin </span>
+              <a href="tel:0852144133">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span> 0852144133 </span>
               </a>
-              <a href="">
+              <a href="tel:089 9464646">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span> Call : 089 9464646 </span>
               </a>
-              <a href="">
+              <a href="mailto:moveitie@outlook.com">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span> moveitie@outlook.com </span>
               </a>
             </div>
-            <div class="social_box">
+            <!-- <div class="social_box">
               <a href="">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
@@ -82,7 +86,7 @@
               <a href="">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="header_bottom">
@@ -111,32 +115,28 @@
                       >Home <span class="sr-only">(current)</span></a
                     >
                   </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"> About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html"> About</a>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="#customCarousel2">Gallery</a>
                   </li>
+
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Get Quote</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
                       <i class="fa fa-user" aria-hidden="true"></i>
-                      <span> Login </span>
                     </a>
-                  </li> -->
-                  <form class="form-inline">
-                    <button
-                      class="btn my-sm-0 nav_search-btn my-2"
-                      type="submit"
-                    >
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                  </form>
+                  </li>
                 </ul>
               </div>
             </nav>
@@ -151,13 +151,13 @@
             <div class="carousel-item active carousel-item-one">
               <div class="container">
                 <div class="detail-box">
-                  <h1>
+                  <h1 class="text-stroke">
                     We Move <br />
                     It All... <br />
                   </h1>
                   <div class="btn-box">
-                    <a href="" class="btn1"> Read More </a>
-                    <a href="" class="btn2"> Contact Us </a>
+                    <a href="#about" class="btn1"> Read More </a>
+                    <a href="#contact" class="btn2"> Contact Us </a>
                   </div>
                 </div>
               </div>
@@ -165,14 +165,14 @@
             <div class="carousel-item carousel-item-two">
               <div class="container">
                 <div class="detail-box">
-                  <h1>
+                  <h1 class="text-stroke">
                     Business Or Home. <br />
                     We Move You <br />
                     With Care
                   </h1>
                   <div class="btn-box">
-                    <a href="" class="btn1"> Read More </a>
-                    <a href="" class="btn2"> Contact Us </a>
+                    <a href="#about" class="btn1"> Read More </a>
+                    <a href="#contact" class="btn2"> Contact Us </a>
                   </div>
                 </div>
               </div>
@@ -180,14 +180,14 @@
             <div class="carousel-item carousel-item-three">
               <div class="container">
                 <div class="detail-box">
-                  <h1>
+                  <h1 class="text-stroke">
                     Moving Made <br />
                     Easy. Anywhere In <br />
                     Ireland.
                   </h1>
                   <div class="btn-box">
-                    <a href="" class="btn1"> Read More </a>
-                    <a href="" class="btn2"> Contact Us </a>
+                    <a href="#about" class="btn1"> Read More </a>
+                    <a href="#contact" class="btn2"> Contact Us </a>
                   </div>
                 </div>
               </div>
@@ -220,7 +220,7 @@
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section class="about_section layout_padding" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -240,7 +240,10 @@
           </div>
           <div class="col-md-6">
             <div class="img-box">
-              <img src="images/about2-img.png" alt="" />
+              <img
+                src="images/about2-img.png"
+                alt="A worker in uniform, carrying a box"
+              />
             </div>
           </div>
         </div>
@@ -253,69 +256,18 @@
 
     <section class="portfolio_section">
       <div class="container">
-        <div class="heading_container heading_center">
+        <div class="heading_container justify-content-around mx-auto flex-row">
           <a href="tel:089 9464646"
             ><i class="fa fa-phone" aria-hidden="true"></i> Call: 089 9464646</a
           >
-          <img src="" alt="" />
+          <a href="tel:0852144133"
+            ><i class="fa fa-phone" aria-hidden="true"></i> Call: 085 2144133</a
+          >
+          <a href="#contact"
+            ><i class="fa fa-envelope" aria-hidden="true"></i> Email for a
+            quote</a
+          >
         </div>
-        <!-- <div class="carousel-wrap">
-          <div class="filter_box">
-            <nav class="owl-filter-bar">
-              <a href="#" class="item active" data-owl-filter="*">All</a>
-              <a href="#" class="item" data-owl-filter=".decorative"
-                >DECORATIVE</a
-              >
-              <a href="#" class="item" data-owl-filter=".facade">FACADES </a>
-              <a href="#" class="item" data-owl-filter=".perforated"
-                >PERFORATED
-              </a>
-              <a href="#" class="item" data-owl-filter=".railing">RAILINGS </a>
-            </nav>
-          </div>
-        </div>
-      </div> -->
-        <!-- <div class="owl-carousel portfolio_carousel">
-        <div class="item decorative">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/p1.jpg" alt="" />
-              <div class="btn_overlay">
-                <a href="" class=""> See More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item facade">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/p2.jpg" alt="" />
-              <div class="btn_overlay">
-                <a href="" class=""> See More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item perforated decorative">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/p3.jpg" alt="" />
-              <div class="btn_overlay">
-                <a href="" class=""> See More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item railing">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/p1.jpg" alt="" />
-              <div class="btn_overlay">
-                <a href="" class=""> See More </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -323,7 +275,7 @@
 
     <!-- service section -->
 
-    <section class="service_section layout_padding">
+    <section class="service_section layout_padding" id="service">
       <div class="container">
         <div class="heading_container heading_center">
           <h2>Our <span>Services</span></h2>
@@ -332,7 +284,7 @@
           <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/home_.png" alt="" />
+                <img src="images/home_.png" alt="House icon" />
               </div>
               <div class="detail-box">
                 <h5>Home Moving</h5>
@@ -348,7 +300,7 @@
           <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/office-building_.png" alt="" />
+                <img src="images/office-building_.png" alt="office icon" />
               </div>
               <div class="detail-box">
                 <h5>Business Relocations</h5>
@@ -364,7 +316,7 @@
           <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/van_.png" alt="" />
+                <img src="images/van_.png" alt="van icon" />
               </div>
               <div class="detail-box">
                 <h5>Man With A Van</h5>
@@ -378,10 +330,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6">
+          <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/box_.png" alt="" />
+                <img src="images/box_.png" alt="Cardboard box icon" />
               </div>
               <div class="detail-box">
                 <h5>Packaging Service</h5>
@@ -394,10 +346,10 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-6">
+          <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/clean_.png" alt="" />
+                <img src="images/clean_.png" alt="Broom icon" />
               </div>
               <div class="detail-box">
                 <h5>Cleanup Service</h5>
@@ -410,23 +362,29 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4">
             <div class="box">
               <div class="img-box">
-                <img src="images/s6.png" alt="" />
+                <img
+                  src="images/vehicle-car-profile-20-regular_.png"
+                  alt="Car icon"
+                />
               </div>
               <div class="detail-box">
-                <h5>Car Welding</h5>
+                <h5>Vehicle &amp; Equipment Transport</h5>
                 <p>
-                  when looking at its layout. The point of using Lorem Ipsum is
-                  that it has a more-or-less normal
+                  From heavy machinery to delicate equipment, we have the
+                  expertise to transport your valuable assets with care. Our
+                  specialized transport vehicles are designed to handle even the
+                  most challenging loads, providing you with peace of mind
+                  throughout the journey.
                 </p>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
         <div class="btn-box">
-          <a href=""> Read More </a>
+          <a href="#contact"> Get A Quote </a>
         </div>
       </div>
     </section>
@@ -435,10 +393,15 @@
     <div id="my-gallery" style="max-width: 80%; margin: auto"></div>
 
     <!-- contact section -->
-    <section class="contact_section">
+    <section
+      class="contact_section"
+      id="contact"
+      netlify
+      netlify-honeypot="bot-field"
+    >
       <div class="container">
         <div class="heading_container heading_center">
-          <h2>Get In <span>Touch</span></h2>
+          <h2>Get A <span>Quote</span></h2>
         </div>
         <div class="row">
           <div class="col-md-12 mx-auto px-0">
@@ -446,6 +409,7 @@
               <form action="">
                 <div class="form-row">
                   <div class="form-group col">
+                    <input class="hidden" name="bot-field" />
                     <input
                       type="text"
                       class="form-control"
@@ -491,10 +455,10 @@
     <!-- end contact section -->
 
     <!-- client section -->
-    <section class="client_section layout_padding">
-      <div class="container">
+    <section class="client_section layout_padding" id="reviews">
+      <!--   <div class="container">
         <div class="heading_container heading_center">
-          <h2>Testimonial</h2>
+          <h2>Reviews</h2>
         </div>
         <div class="row">
           <div class="col-md-9 mx-auto">
@@ -583,23 +547,23 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </section>
     <!-- end client section -->
 
     <!-- info section -->
 
-    <!-- <section class="info_section">
+    <section class="info_section">
       <div class="info_container layout_padding2">
         <div class="container">
           <div class="info_logo">
-            <a class="navbar-brand" href="index.html"> Tro<span>Weld</span> </a>
+            <a class="navbar-brand" href="index.html"> Move<span>It</span> </a>
           </div>
           <div class="info_main">
             <div class="row">
-              <div class="col-md-3 col-lg-2">
+              <div class="col-md-6 col-lg-3">
                 <div class="info_link-box">
-                  <h5>Useful Link</h5>
+                  <h5>Navigation</h5>
                   <ul>
                     <li class="active">
                       <a class="" href="index.html"
@@ -607,29 +571,23 @@
                       >
                     </li>
                     <li class="">
-                      <a class="" href="about.html">About </a>
+                      <a class="" href="#about">About </a>
                     </li>
                     <li class="">
-                      <a class="" href="service.html">Services </a>
+                      <a class="" href="#service">Services </a>
                     </li>
                     <li class="">
-                      <a class="" href="portfolio.html"> Portfolio </a>
+                      <a class="" href="#gallery"> Gallery </a>
                     </li>
                     <li class="">
-                      <a class="" href="contact.html"> Contact </a>
+                      <a class="" href="#contact"> Contact </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-3">
-                <h5>Welding</h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscinaliquaLoreadipiscing
-                </p>
-              </div>
+
               <div class="col-md-3 mx-auto">
-                <h5>social media</h5>
+                <!-- <h5>social media</h5>
                 <div class="social_box">
                   <a href="#">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -643,58 +601,45 @@
                   <a href="#">
                     <i class="fa fa-youtube-play" aria-hidden="true"></i>
                   </a>
-                </div>
+                </div> -->
               </div>
-              <div class="col-md-3">
-                <h5>Our welding center</h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscinaliquaLoreadipiscing
-                </p>
+              <div class="col-md-6 text-right">
+                <h5>Move-It Ireland</h5>
+                <p>Ireland's premiere moving company.</p>
               </div>
             </div>
           </div>
           <div class="info_bottom">
             <div class="row">
-              <div class="col-lg-9">
+              <div class="col-lg-12 mx-auto">
                 <div class="info_contact">
                   <div class="row">
-                    <div class="col-md-3">
-                      <a href="#" class="link-box">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <span> Location </span>
+                    <div class="col-md-4">
+                      <a href="mailto:moveitie@outlook.com" class="link-box">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span> moveitie@outlook.com </span>
                       </a>
                     </div>
                     <div class="col-md-5">
-                      <a href="#" class="link-box">
+                      <a href="tel:089 9464646" class="link-box">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span> Call +01 1234567890 </span>
+                        <span> Call 089 9464646 </span>
                       </a>
                     </div>
-                    <div class="col-md-4">
-                      <a href="#" class="link-box">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <span> demo@gmail.com </span>
+                    <div class="col-md-3">
+                      <a href="tel:085 2144133" class="link-box">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span> Call 085 2144133 </span>
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="info_form">
-                  <form action="">
-                    <input type="email" placeholder="Enter Your Email" />
-                    <button>
-                      <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                    </button>
-                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- end info section -->
 
@@ -705,6 +650,9 @@
           &copy; <span id="displayYear"></span> Website by:
           <a href="https://blankcanvas.ie/">Blank Canvas Solutions</a>
         </p>
+        <a class="nav-link" href="/admin">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </a>
       </div>
     </footer>
     <!-- footer section -->
