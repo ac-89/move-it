@@ -431,10 +431,17 @@
             >
               <!-- <div class="row">
                 <div class="col-md-11"> -->
-                 
-                  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-07d0d7b2-5b4c-4bd4-8a45-ea5990f19fd9" data-elfsight-app-lazy></div>
-                  <!-- <div class="carousel-inner">
+
+              <script
+                src="https://static.elfsight.com/platform/platform.js"
+                data-use-service-core
+                defer
+              ></script>
+              <div
+                class="elfsight-app-07d0d7b2-5b4c-4bd4-8a45-ea5990f19fd9"
+                data-elfsight-app-lazy
+              ></div>
+              <!-- <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div class="box">
                         <div class="client_id">
@@ -489,7 +496,7 @@
                         </div>
                       </div>
                     </div> -->
-                  <!-- </div>
+              <!-- </div>
                 </div>
                 <div class="col-md-1">
                   <ol class="carousel-indicators">
@@ -504,6 +511,7 @@
                 </div>
               </div>
             </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -525,7 +533,7 @@
                 netlify-honeypot="bot-field"
               >
                 <div class="form-row">
-                  <div class="form-group col">
+                  <div class="form-group col-lg-6">
                     <input class="hidden" name="bot-field" />
                     <input
                       type="text"
@@ -535,8 +543,7 @@
                       required
                     />
                   </div>
-                </div>
-                <div class="form-row">
+
                   <div class="form-group col-lg-6">
                     <input
                       type="tel"
@@ -546,6 +553,8 @@
                       required
                     />
                   </div>
+                </div>
+                <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input
                       type="email"
@@ -555,12 +564,47 @@
                       required
                     />
                   </div>
+
+                  <div class="form-group col-lg-6">
+                    <!-- date input -->
+
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="date"
+                      placeholder="Date of Move"
+                      onfocus="( this.type = 'date' )"
+                      onblur="( this.type = 'text' )"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Pick-up Address"
+                      name="name"
+                      required
+                    />
+                  </div>
+
+                  <div class="form-group col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Destination Address"
+                      name="phone"
+                      required
+                    />
+                  </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col">
                     <textarea
                       class="message-box form-control"
-                      placeholder="Message"
+                      placeholder="Items to move"
                       name="message"
                       required
                     ></textarea>

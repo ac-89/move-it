@@ -1232,4 +1232,6 @@ a:focus {
 
 .hidden {
   visibility: hidden;
+
+  position: absolute;
 }
