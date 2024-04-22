@@ -61,12 +61,12 @@ $(document).ready(function () {
   $("select").niceSelect();
 });
 
-const updateIframe = () => {
-  const iframe = document.getElementById("iframe");
-  const reviewDiv = document.getElementById("section-reviews");
-  iframe.srcdoc = reviewDiv.outerHTML;
-};
+// On page load, change the iframe display to block
 
-window.onload = function () {
-  $("#iframe").show();
+let originalScrollTo = window.scrollTo;
+
+window.scrollTo = function scrollTo(x, y) {
+  if (y === 0) {
+    originalScrollTo.call(this, x, y);
+  }
 };
