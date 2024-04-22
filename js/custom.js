@@ -66,3 +66,7 @@ const updateIframe = () => {
   const reviewDiv = document.getElementById("section-reviews");
   iframe.srcdoc = reviewDiv.outerHTML;
 };
+
+window.onload = function () {
+  $("#iframe").show();
+};
