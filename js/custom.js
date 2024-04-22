@@ -60,3 +60,9 @@ function myMap() {
 $(document).ready(function () {
   $("select").niceSelect();
 });
+
+const updateIframe = () => {
+  const iframe = document.getElementById("iframe");
+  const reviewDiv = document.getElementById("section-reviews");
+  iframe.srcdoc = reviewDiv.outerHTML;
+};
