@@ -834,6 +834,7 @@ a:focus {
 }
 
 .contact_section .form_container .form-control {
+  display: block;
   width: 100%;
   appearance: none;
   -webkit-appearance: none;
