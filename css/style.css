@@ -835,10 +835,8 @@ a:focus {
 
 .contact_section .form_container .form-control {
   width: 100%;
-  display: block;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  min-height: 1.2em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border: none;
   height: 50px;
   margin-bottom: 15px;
