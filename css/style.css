@@ -829,15 +829,20 @@ a:focus {
 }
 
 .contact_section .form_container {
+  /* display: flex; */
   background-color: #00103d;
   padding: 45px;
 }
 
 .contact_section .form_container .form-control {
-  display: block;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-height: 1.2em;
   width: 100%;
   appearance: none;
-  -webkit-appearance: textfield;
+  -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
   height: 50px;
