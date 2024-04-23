@@ -493,10 +493,12 @@
                     <!-- date input -->
 
                     <input
-                      type="date"
+                      type="text"
                       class="form-control"
                       name="date"
                       placeholder="Date of Move"
+                      onmouseenter="( this.type = 'date' )"
+                      onblur="( this.type = 'text' )"
                       required
                     />
                   </div>
