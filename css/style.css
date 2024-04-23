@@ -1162,9 +1162,12 @@ a:focus {
 .info_form form input {
   /* -webkit-box-flex: 1;
   -ms-flex: 1; */
+  display: block;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  min-height: 1.2em;
+  min-width: 95%;
   /* flex: 1; */
   height: 45px;
   border: none;
