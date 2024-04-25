@@ -388,23 +388,26 @@ a:focus {
 }
 
 .slider_section #customCarousel1 .carousel-item-one {
-  background-image: url(../images/premium_photo-1661409078904-42334551db0c-transformed.png);
+  background-image: url(../images/premium_photo-1661409078904-42334551db0c-transformed.jpg);
   padding: 300px 0;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .slider_section #customCarousel1 .carousel-item-two {
-  background-image: url(../images/premium_photo-1661409351559-4172ea985076-transformed.png);
+  background-image: url(../images/premium_photo-1661409351559-4172ea985076-transformed.jpeg);
   padding: 300px 0;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
 .slider_section #customCarousel1 .carousel-item-three {
-  background-image: url(../images/premium_photo-1661907153090-93759d68acb1-transformed.png);
+  background-image: url(../images/premium_photo-1661907153090-93759d68acb1-transformed.jpeg);
   padding: 300px 0;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 
@@ -1233,7 +1236,7 @@ a:focus {
 #imageGallery img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .cloudinary-button {

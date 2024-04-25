@@ -65,6 +65,34 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6S0BDQTRSZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6S0BDQTRSZ");
+    </script>
   </head>
 
   <body>
@@ -2071,16 +2099,17 @@
                   <div class="form-group col-lg-6">
                     <!-- date input -->
 
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="date"
-                      width="100%"
-                      placeholder="Date of Move"
-                      onmouseenter="( this.type = 'date' )"
-                      onblur="( this.type = 'text' )"
-                      required
-                    />
+                    <p>
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="datepicker"
+                        name="date"
+                        width="100%"
+                        placeholder="Date of Move"
+                        required
+                      />
+                    </p>
                   </div>
                 </div>
                 <div class="form-row">
