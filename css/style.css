@@ -1180,6 +1180,7 @@ a:focus {
   height: 45px;
   border: none;
   padding-left: 10px;
+  text-align: left;
 }
 
 .info_form form button {
