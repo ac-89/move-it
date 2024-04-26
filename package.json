@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": " node server.js"
   },
   "author": "",
@@ -14,5 +13,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
     "netlify-cli": "^17.15.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
   }
 }

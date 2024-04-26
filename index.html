@@ -2141,12 +2141,14 @@
 
                     <p>
                       <input
-                        type="date"
+                        type="text"
                         class="form-control"
                         id="datepicker"
                         name="date"
                         width="100%"
                         placeholder="Date of Move"
+                        onfocus="(this.type='date')"
+                        onblur="(this.type='text')"
                         required
                       />
                     </p>
