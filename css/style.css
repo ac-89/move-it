@@ -1273,3 +1273,15 @@ a:focus {
   margin: 0 auto;
   /* width: 50%; */
 }
+
+input[type="date"]::before {
+  color: #444;
+  content: attr(placeholder);
+  margin-right: 2222px;
+  margin-top: 10px;
+  /* push the default placeholder out.. you can add more if you want */
+}
+input[type="date"]:focus::before {
+  content: "" !important;
+  display: none;
+}
