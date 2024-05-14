@@ -42,7 +42,8 @@ body {
   align-items: flex-start;
 }
 
-.heading_container h2 {
+.heading_container h2,
+.section-header {
   position: relative;
   font-weight: bold;
 }
@@ -146,6 +147,7 @@ a:focus {
 
 .header_section .header_top .contact_nav a i {
   margin-right: 5px;
+  margin-left: 5px;
   background-color: #159ec0;
   width: 35px;
   height: 35px;
@@ -415,7 +417,7 @@ a:focus {
   color: #cb1111;
 }
 
-.slider_section .detail-box h1 {
+.slider_section .detail-box span {
   font-weight: 600;
   margin-bottom: 0;
   color: #ffffff;
@@ -1159,6 +1161,7 @@ a:focus {
   border-radius: 5px;
   font-size: 18px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .info_form form {
