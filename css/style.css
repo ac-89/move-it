@@ -774,7 +774,7 @@ a:focus {
   margin-top: 15px;
 }
 
-.service_section .box .detail-box h5 {
+.service_section .box .detail-box h4 {
   font-weight: bold;
 }
 
@@ -1101,7 +1101,7 @@ a:focus {
 
 .info_section p {
   margin-bottom: 0;
-  color: #878585;
+  color: #c4c4c4;
 }
 
 .info_section a {
@@ -1118,7 +1118,7 @@ a:focus {
 }
 
 .info_section ul li a {
-  color: #878585;
+  color: #c4c4c4;
 }
 
 .info_section .info_link-box {
