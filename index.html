@@ -83,32 +83,8 @@
       href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
       media="screen"
     />
-    <link rel="preload" as="script" src="./js/owl.carousel.min.js" />
-    <!--  OwlCarousel 2 - Filter -->
-    <link rel="preload" as="script" src="./js/owlcarousel2-filter.min.js" />
+
     <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script>
-      $(function () {
-        $("#datepicker").datepicker();
-      });
-    </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-6S0BDQTRSZ"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-6S0BDQTRSZ");
-    </script>
   </head>
 
   <body>
@@ -304,6 +280,7 @@
               <img
                 src="images/about2-img.avif"
                 alt="A worker in uniform, carrying a box"
+                loading="lazy"
               />
             </div>
           </div>
@@ -736,5 +713,30 @@
       });
       myGallery.render();
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6S0BDQTRSZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6S0BDQTRSZ");
+    </script>
+    <link rel="preload" as="script" src="./js/owl.carousel.min.js" />
+    <!--  OwlCarousel 2 - Filter -->
+    <link rel="preload" as="script" src="./js/owlcarousel2-filter.min.js" />
   </body>
 </html>
